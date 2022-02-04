@@ -1,0 +1,116 @@
+*{
+    padding:0 ; margin: 0;
+}
+.container{
+    width: 70%;
+    box-shadow: 10px 10px 20px 0px #1A374D;
+    border: 20px solid #406882 ;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: space-between;
+}
+.options{
+    flex-basis: 28%;
+    /* border: 2px solid gray; */
+    background-color: #B1D0E0;
+    padding: 10px;
+}
+.in-out{
+    flex-basis: 72%;
+    /* border: 2px solid yellow; */
+    background-color: #6998AB;
+    padding: 20px;
+}
+.options button{
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #18476b;
+    font-size: 1.1rem;
+    color: #153752;
+    box-shadow: 2px 2px 5px 1px gray;
+    
+}
+.options button:hover{
+    background-color: #18476b;
+    color: #fff;
+}
+.options .title{
+    padding: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.3rem;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/*----------- in out -------------- */
+.in-out{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+}
+.label{
+    flex-basis: 20%;
+}
+.inp{
+    flex-basis: 80%;
+}
+.label label{
+    display: inline-block;
+    /* border: 1px solid #000; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+    /* padding: 8px; */
+    font-size: 1.3rem;
+}
+.inp input{
+    width: 90%;
+    padding: 11px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    border: 2px solid #406882;
+}
+.inp input:focus{
+    border: 2px solid #406882;
+}
+hr{
+    margin: 20px 0;
+}
+.output{
+    margin: 50px;
+    /* border: 2px solid yellowgreen; */
+}
+.output h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.output p{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px 0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 2px #1A374D;
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    color: #18476b;
+}
+
+
+
+
+
